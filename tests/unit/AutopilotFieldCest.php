@@ -1,6 +1,6 @@
 <?php
 
-namespace Test\unit;
+namespace Tests\Unit;
 
 use Autopilot\AutopilotException;
 use Autopilot\AutopilotField;

@@ -12,14 +12,14 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
-        "guzzlehttp/guzzle": "~6.0"
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "^7.0"
     },
     "require-dev": {
-        "codeception/codeception": "~2.1",
-        "codeception/aspect-mock": "dev-master",
-        "phpunit/phpunit": "~5.7",
-        "phake/phake": "~2.3"
+        "codeception/codeception": "^4.1",
+        "codeception/aspect-mock": "^3.0",
+        "phpunit/phpunit": "^9.0",
+        "phake/phake": "^3.0"
     },
     "suggest": {
         "vlucas/phpdotenv": "Allows secrets to be loaded from .env files."
@@ -27,7 +27,7 @@
     "autoload": {
         "psr-4": {
             "Autopilot\\": "src/",
-            "Tests\\": "tests/"
+            "Tests\\": "Tests/"
         }
     }
 }

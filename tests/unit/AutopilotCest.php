@@ -1,6 +1,6 @@
 <?php
 
-namespace Test;
+namespace Tests\Unit;
 
 use AspectMock\Test as mock;
 use Autopilot\AutopilotManager;
